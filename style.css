@@ -1,0 +1,69 @@
+body {
+	font-family: "Oswald";
+}
+
+header {
+	padding: 30px 80px 30px 80px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-transform: uppercase;
+}
+
+footer {
+	font-size: 20px;
+	font-weight: 300px;
+}
+
+.title {
+	font-size: 36px;
+	font-weight: 500;
+	text-decoration: none;
+	color: #000;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.menu {
+	font-size: 24px;
+	font-weight: 300;
+	width: 392px;
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+}
+
+li:hover {
+	color: #7c7071;
+}
+
+.home {
+	text-align: center;
+}
+
+.story {
+	display: flex;
+	flex-direction: column;
+	padding: 60px 125px 60px 80px;
+}
+
+.story_content {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-self: center;
+	padding-top: 60px;
+}
+
+#img_story {
+	width: 600px;
+	height: 400px;
+	padding-right: 40px;
+}
+
+.story_text {
+	font-size: 20px;
+	font-weight: 300;
+	max-width: 597px;
+	align-self: center;
+}
