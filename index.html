@@ -12,20 +12,20 @@
 <body>
 	<header>
 		<a class="title" href="index.html">coffee house</a>
-		<ul class="menu">
-			<li href="home">home</li>
-			<li href="story">story</li>
-			<li href="blog">blog</li>
-			<li href="subscribe">subscribe</li>
+		<ul class="navbar">
+			<li><a href="#home">home</a></li>
+			<li><a href="#story">story</a></li>
+			<li><a href="#blog">blog</a></li>
+			<li><a href="#subscribe">subscribe</a></li>
 		</ul>
 	</header>
-	<div class="home">
-		<img src="/images/home.png">
+	<div class="home" id="home">
+		<img src="/images/home.png" alt="home">
 	</div>
-	<div class="story">
+	<div class="story" id="story">
 		<a class="title">story</a>
 		<div class="story_content">
-			<img id="img_story" src="/images/story.png">
+			<img id="img_story" src="/images/story.png" alt="story">
 			<p class="story_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius eget arcu quis
 				cursus. Nunc id tortor
 				imperdiet, vestibulum orci sed, gravida orci. Cras a enim ac elit eleifend euismod. Class aptent taciti sociosqu
@@ -34,14 +34,34 @@
 				commodo. Donec eget pulvinar nunc, eget pharetra risus.</p>
 		</div>
 	</div>
-	<div class="blog">
-
+	<div class="blog" id="blog">
+		<a class="title">blog</a>
+		<div class="blog_content">
+			<div class="card">
+				<p class="card_title">Daily Coffee News</p>
+				<img class="card_img" src="/images/blog1.png" alt="blog1">
+				<p class="card_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius eget arcu quis cursus. Nunc id tortor imperdiet, vestibulum orci sed, gravida orci. Cras a enim ac elit eleifend euismod.</p>
+			</div>
+			<div class="card">
+				<p class="card_title">Dutch Coffee Chains</p>
+				<img class="card_img" src="/images/blog2.png" alt="blog2">
+				<p class="card_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius eget arcu quis cursus. Nunc id tortor imperdiet, vestibulum orci sed, gravida orci. Cras a enim ac elit eleifend euismod.</p>
+			</div>
+			<div class="card">
+				<p class="card_title">Start Up In Minneapolis</p>
+				<img class="card_img" src="/images/blog3.png" alt="blog3">
+				<p class="card_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius eget arcu quis cursus. Nunc id tortor imperdiet, vestibulum orci sed, gravida orci. Cras a enim ac elit eleifend euismod.</p>
+			</div>
+		</div>
 	</div>
-	<div class="subscribe">
-
+	<div class="subscribe" id="subscribe">
+		<a class="title" id="title_subscribe">subscribe</a>
+		<input name="email" type="email" required placeholder="enter your email" 
+			autocomplete="on" size="20">
+		<button class="submit">submit</button>
 	</div>
 	<footer>
-		<p>© COPYRIGHT 2021</p>
+		<p>© COPYRIGHT 2024</p>
 	</footer>
 </body>
 

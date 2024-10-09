@@ -12,7 +12,8 @@ header {
 
 footer {
 	font-size: 20px;
-	font-weight: 300px;
+	font-weight: 300;
+	text-align: center;
 }
 
 .title {
@@ -24,7 +25,7 @@ footer {
 	text-align: center;
 }
 
-.menu {
+.navbar {
 	font-size: 24px;
 	font-weight: 300;
 	width: 392px;
@@ -33,11 +34,16 @@ footer {
 	list-style-type: none;
 }
 
-li:hover {
+li > a:hover {
 	color: #7c7071;
 }
 
-.home {
+li > a {
+	color: #000;
+	text-decoration: none;
+}
+
+#home {
 	text-align: center;
 }
 
@@ -66,4 +72,82 @@ li:hover {
 	font-weight: 300;
 	max-width: 597px;
 	align-self: center;
+}
+
+.blog {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	padding: 60px 120px 60px 120px;
+	background-color: #EFEFEF;
+}
+
+.blog_content {
+	padding-top: 60px;
+	display: flex;
+	min-width: 1235px;
+	justify-content: space-between;
+}
+
+.card {
+	padding: 0px 20px 0px 20px;
+	background-color: #ffff;
+}
+
+.card_title {
+	font-size: 24px;
+	font-weight: 400;
+}
+
+.card_img {
+	width: 325px;
+	height: 216px;
+}
+
+.card_text {
+	max-width: 325px;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.subscribe {
+	background-color: #817070;
+	padding: 60px 0px 60px 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	min-height: 220px;
+}
+
+input {
+	font-size: 20px;
+	font-weight: 300;
+	background-color: #817070;
+	color: #ffff;
+	width: 300px;
+	height: 55px;
+	border: 3px solid #ffff;
+	text-align: center;
+	outline: none;
+}
+
+.submit {
+	background-color: #ffff;
+	border: none;
+	color: #817070;
+	font-size: 20px;
+	font-weight: 400;
+	text-transform: uppercase;
+	width: 130px;
+	height: 55px;
+}
+
+#title_subscribe {
+	color: #ffff;
+}
+
+::placeholder {
+	color: #ffff;
 }
